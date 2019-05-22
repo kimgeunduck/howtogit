@@ -1,0 +1,56 @@
+□ github
+Git은 분산 버전 관리 툴
+웹 서비스
+웹 호스팅 서비스
+버전 관리 도구
+□ 작성언어: 루비온레일스
+□ 활용방법
+1. Github에 가입하기 (ID, PW, email) https://github.com 
+2. 클라이언트 다운 받고 설치하기 https://gitforwindows.org/
+활용 방법1
+[서버] http://github.com/jcshim 에서 폴더 mygit을 만든다. 이때 Readme.md 도 생성한다.
+[클라이언트] 
+$ git crone https://github.com/jcshim/mygit 
+새 파일을 추가한다. $ echo "Test of git !!" >> readme.txt 
+$ git add .
+$ git commit -m "my first commit"
+$ git push origin master
+활용 방법2
+$ mkdir mygit
+$ cd mygit
+$ git init
+$ git config --global user.name "id"    <== 사용자 id
+$ git config --global user.email "id@abc.com"  <== 메일주소
+$ git config --list           <= 설정 내용 확인 가능
+$ echo "I love git" >> hi.txt
+$ git add hi.txt
+$ git status
+$ git commit -m "First Commit"
+$ git remote add mygit https://github.com/id/mygit
+$ git push origin master
+다음을 참고해서 공부하기
+□ git - 간편 안내서
+https://rogerdudler.github.io/git-guide/index.ko.html
+
+□ 실습 따라해 보기:
+https://devstorylog.blogspot.com/2018/05/windows-git-github.html
+□ 심플 매뉴얼:
+https://github.com/JaeYeopHan/Minimal_Git_command
+
+□ Github를 이용하는 전체 흐름 이해하기
+
+https://blog.outsider.ne.kr/865
+https://blog.outsider.ne.kr/866
+□ 깃허브(GitHub)로 취업하기
+
+https://sujinlee.me/professional-github/
+□ Markdown Cheatsheet  
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines
+http://www.bloter.net/archives/243254
+
+□ 유튜브 설명 (동영상 11개)
+https://youtu.be/rhP5pseOJc0?list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4no81
+
+□ 설명 블로그
+http://blog.naver.com/2000051148/221194479064
